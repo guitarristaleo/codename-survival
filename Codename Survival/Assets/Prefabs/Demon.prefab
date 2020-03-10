@@ -88,7 +88,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3965299333520420267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65c1b24ec0a57da44a25cda78f8f5d80, type: 3}
+  m_Script: {fileID: 11500000, guid: 390ee06e3eeb5564eb6005582c45bbdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Hit_Event: {fileID: 11400000, guid: 7e363a35862955440a7000d0aa573fc8, type: 2}
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3965299334157187819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60c356ac41cf309488f1ffd47c8abb0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e34c0c17b3afca448d9814d587cc77b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ParameterName: Hit
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3965299334157187819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60c356ac41cf309488f1ffd47c8abb0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e34c0c17b3afca448d9814d587cc77b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ParameterName: Death
@@ -347,6 +347,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3965299334823828212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba13fb319886c4d43a88c6f90deb7d2f, type: 3}
+  m_Script: {fileID: 11500000, guid: ddd605ca3987a1545846eb9113d39dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
