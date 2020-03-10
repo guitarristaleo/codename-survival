@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4738172022561105792
+--- !u!1 &5588397118093184533
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4738172022561105795}
-  - component: {fileID: 4738172022561105797}
-  - component: {fileID: 4738172022561105794}
-  - component: {fileID: 4738172022561105796}
+  - component: {fileID: 5588397118093184534}
+  - component: {fileID: 5588397118093184528}
+  - component: {fileID: 5588397118093184535}
+  - component: {fileID: 5588397118093184529}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -19,33 +19,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4738172022561105795
+--- !u!4 &5588397118093184534
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4738172022561105792}
+  m_GameObject: {fileID: 5588397118093184533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5.72, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4738172022561105797
+--- !u!114 &5588397118093184528
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4738172022561105792}
+  m_GameObject: {fileID: 5588397118093184533}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 6c0d2e5999b34764699cdd7167251ccf,
+  m_Actions: {fileID: -944628639613478452, guid: 95d33e2d965e95c4e95c77d680c997b7,
     type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4738172022561105794}
+      - m_Target: {fileID: 5588397118093184535}
         m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceSelect
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4738172022561105794}
+      - m_Target: {fileID: 5588397118093184535}
         m_MethodName: OnAttack
         m_Mode: 0
         m_Arguments:
@@ -132,7 +132,7 @@ MonoBehaviour:
     m_ActionName: Player/Attack[/XInputControllerWindows/buttonWest]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4738172022561105794}
+      - m_Target: {fileID: 5588397118093184535}
         m_MethodName: OnJump
         m_Mode: 0
         m_Arguments:
@@ -147,7 +147,7 @@ MonoBehaviour:
     m_ActionName: Player/Jump[/XInputControllerWindows/buttonSouth]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4738172022561105794}
+      - m_Target: {fileID: 5588397118093184535}
         m_MethodName: OnChargedAttack
         m_Mode: 0
         m_Arguments:
@@ -165,29 +165,29 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &4738172022561105794
+--- !u!114 &5588397118093184535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4738172022561105792}
+  m_GameObject: {fileID: 5588397118093184533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49c06110dd714eb41a53740829094755, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e9091201f3ae414fbca127854e7fc73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Character: {fileID: 0}
---- !u!114 &4738172022561105796
+--- !u!114 &5588397118093184529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4738172022561105792}
+  m_GameObject: {fileID: 5588397118093184533}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b473666ae7ea2548be9de245aeec661, type: 3}
+  m_Script: {fileID: 11500000, guid: 98bfb8c43599be240a18cf6e282324fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: TestScene
+  sceneName: MainScene
