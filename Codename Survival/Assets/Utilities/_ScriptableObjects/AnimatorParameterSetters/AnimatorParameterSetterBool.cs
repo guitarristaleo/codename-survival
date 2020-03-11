@@ -10,6 +10,8 @@ using UnityEngine;
 
 public class AnimatorParameterSetterBool : MonoBehaviour
 {
+    private ScriptableObjectCloner soCloner = default;
+
     [Tooltip("Name of the parameter to set with the value of Variable.")]
     public string ParameterName;
 
@@ -28,7 +30,10 @@ public class AnimatorParameterSetterBool : MonoBehaviour
 
     private void Awake()
     {
+        this.soCloner = GetComponentInParent<ScriptableObjectCloner>();
+        this.Variable = (BoolVariable)soCloner?.GetLocalToPrefab(Variable) ?? this.Variable;
         Animator = GetComponentInParent<Animator>();
+        parameterHash = Animator.StringToHash(ParameterName);
     }
 
     private void OnValidate()

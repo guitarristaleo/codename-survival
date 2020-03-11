@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu (menuName = "PluggableAI/State")]
 public class State : ScriptableObject
 {
-    public Action[] Actions;
-    public Transition[] Transitions;
+    public Action[] Actions = default;
+    public Transition[] Transitions = default;
     public Color SceneGizmoColor;
 
     public void UpdateState(StateController controller)

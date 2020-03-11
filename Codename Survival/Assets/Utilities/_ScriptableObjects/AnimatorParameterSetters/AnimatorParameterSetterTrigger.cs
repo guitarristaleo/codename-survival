@@ -34,6 +34,7 @@ public class AnimatorParameterSetterTrigger : MonoBehaviour, IGameEventListener
         this.soCloner = GetComponentInParent<ScriptableObjectCloner>();
         this.Event = (GameEvent)soCloner?.GetLocalToPrefab(Event) ?? this.Event;
         Animator = GetComponentInParent<Animator>();
+        parameterHash = Animator.StringToHash(ParameterName);
     }
 
     private void OnValidate()
