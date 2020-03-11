@@ -10,6 +10,8 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     private ScriptableObjectCloner soCloner = default;
+    private bool Dead = false;
+
     public GameEvent Hit_Event = default;
     public GameEvent Death_Event = default;
 
@@ -75,13 +77,14 @@ public class HealthSystem : MonoBehaviour
     /// </summary>
     private void CheckDeathThreshold()
     {
-        if (CurrentHP.Value <= 0)
+        if (CurrentHP.Value <= 0 && !Dead)
             Die();
     }
 
     private void Die()
     {
         Debug.Log("I DIED!!");
+        Dead = true;
         Death_Event?.Raise();
     }
 }
