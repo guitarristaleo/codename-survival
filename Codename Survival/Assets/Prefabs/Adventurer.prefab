@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1074935391315332821}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1074935391424909526}
   - component: {fileID: 1074935391424909527}
   - component: {fileID: 1074935391424909528}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AnimatorHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074935391428249161}
   - component: {fileID: 1074935391428249162}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CombatSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074935391656252311}
   - component: {fileID: 1074935391656252312}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HealthSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 1074935391928111891}
   - component: {fileID: 1074935391928111888}
   - component: {fileID: 1074935391928111893}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Adventurer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074935392239895352}
   - component: {fileID: 1074935392239895353}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MovementSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8726951705306028512}
   - component: {fileID: 8726951705306028514}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1459,26 +1459,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1074935391315332820, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074935391424909523, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074935391428249160, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074935391656252310, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
     - target: {fileID: 1074935391928111890, guid: d282cac6d8ec140479501f0ccc0288d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1538,21 +1518,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Adventurer
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074935391928111919, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074935392239895351, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8726951705306028513, guid: d282cac6d8ec140479501f0ccc0288d9,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d282cac6d8ec140479501f0ccc0288d9, type: 3}
